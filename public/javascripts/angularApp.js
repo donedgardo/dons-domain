@@ -6,8 +6,8 @@ function($stateProvider, $urlRouterProvider) {
 
   $stateProvider
     .state('home', {
-      url: '/home',
-      templateUrl: '/home.html',
+      url: '/',
+      templateUrl: '/partials/home.html',
       controller: 'MainCtrl'
     });
 
