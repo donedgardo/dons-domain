@@ -5,11 +5,11 @@ app.config([
 function($stateProvider, $urlRouterProvider) {
 
   $stateProvider
-    .state('home', {
+    .state('/', {
       url: '/',
       templateUrl: '/partials/home.html',
       controller: 'MainCtrl'
     });
 
-  $urlRouterProvider.otherwise('home');
+  $urlRouterProvider.otherwise('/');
 }]);
