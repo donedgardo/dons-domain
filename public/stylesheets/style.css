@@ -6,3 +6,8 @@ body {
 a {
   color: #00B7FF;
 }
+
+#chat_window{
+	border: 5px solid #CCE5FF;
+
+}
