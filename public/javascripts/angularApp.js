@@ -7,8 +7,8 @@ function($stateProvider, $urlRouterProvider) {
   $stateProvider
     .state('/', {
       url: '/',
-      templateUrl: '/partials/home.html',
-      controller: 'MainCtrl'
+      templateUrl: '/partials/chat.html',
+      controller: 'ChatCtrl as chatCtrl'
     });
 
   $urlRouterProvider.otherwise('/');
