@@ -5,7 +5,7 @@ var router = express.Router();
 var MongoClient = require('mongodb').MongoClient
 
 
-MongoClient.connect('mongodb://localhost:27017/don_chat', function(err, db){
+MongoClient.connect('mongodb://donlol:semen1@ds053251.mongolab.com:53251/heroku_9sj9h755', function(err, db){
   if (err) throw err;
   console.log("Connected to Database");
 
